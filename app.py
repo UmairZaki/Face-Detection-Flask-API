@@ -49,7 +49,7 @@ def Hoome():
     
 @app.route("/")
 def Upload_image():
-    return render_template('upload_image.html')
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
