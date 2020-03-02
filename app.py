@@ -44,7 +44,7 @@ def Hoome():
     # display faces on the original image
     draw_faces(filename, faces)
 
-    return "succesfully abstract faces"
+    return render_template('x.html')
    
     
 @app.route("/")
